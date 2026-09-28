@@ -35,6 +35,110 @@
       ],
       "ast": [
         "aggregate/ast/31de201485f5ac45955497f9fce95fc27928158d/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/31de201485f5ac45955497f9fce95fc27928158d.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "asimov-module",
+          "ecosystem": "CARGO",
+          "version": "25.0.0-dev.17",
+          "githubOrg": "asimov-platform",
+          "githubRepo": "asimov.rs",
+          "githubCommit": "cf495549f9c4c40fafee9770913ae90baff78f7d",
+          "githubTag": "25.0.0-dev.17",
+          "githubUrl": "https://github.com/asimov-platform/asimov.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "dogma",
+          "ecosystem": "CARGO",
+          "version": "0.1.11",
+          "githubOrg": "dogmatists",
+          "githubRepo": "dogma.rs",
+          "githubCommit": "05158408aca889a5bcc4ede013c42603f4e1c3c8",
+          "githubTag": "0.1.11",
+          "githubUrl": "https://github.com/dogmatists/dogma.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "know",
+          "ecosystem": "CARGO",
+          "version": "0.2.6",
+          "githubOrg": "know-ontology",
+          "githubRepo": "know.rs",
+          "githubCommit": "9b60d4dc78baad0394f5871f7b411575e2c3c447",
+          "githubTag": "0.2.6",
+          "githubUrl": "https://github.com/know-ontology/know.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "mail-parser",
+          "ecosystem": "CARGO",
+          "version": "0.11",
+          "githubOrg": "stalwartlabs",
+          "githubRepo": "mail-parser",
+          "githubUrl": "https://github.com/stalwartlabs/mail-parser",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "mbox-reader",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "djc",
+          "githubRepo": "mbox-reader",
+          "githubUrl": "https://github.com/djc/mbox-reader",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.5",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clientele",
+          "ecosystem": "CARGO",
+          "version": "0.3.8",
+          "githubOrg": "dryrust",
+          "githubRepo": "clientele.rs",
+          "githubCommit": "18a9d41f329119836131c590ec8710bdddc65862",
+          "githubTag": "0.3.8",
+          "githubUrl": "https://github.com/dryrust/clientele.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "colored_json",
+          "ecosystem": "CARGO",
+          "version": "5",
+          "githubOrg": "ctron",
+          "githubRepo": "colored_json",
+          "githubUrl": "https://github.com/ctron/colored_json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "dotenvy",
+          "ecosystem": "CARGO",
+          "version": "0.15.7",
+          "githubOrg": "allan2",
+          "githubRepo": "dotenvy",
+          "githubCommit": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+          "githubTag": "v0.15.7",
+          "githubUrl": "https://github.com/allan2/dotenvy",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dotenvy-0.15.7/src/lib.rs"
+        }
       ]
     }
   ],

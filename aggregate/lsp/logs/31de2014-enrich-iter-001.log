@@ -1,0 +1,17 @@
+[2026-09-28T07:22:00Z] === ENRICH ITERATION 1 START | repo=asimov-modules/asimov-mbox-module sha=31de2014 ===
+[2026-09-28T07:22:00Z] [iter=1] PHASE START: enrich repo=asimov-modules/asimov-mbox-module sha=31de2014 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/31de2014-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/31de201485f5ac45955497f9fce95fc27928158d.nq.gz
+[2026-09-28T07:22:09Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-28T07:22:09Z] [iter=1] AST store loaded triples=11268 load_secs=0 mem_mb=105 MB
+[2026-09-28T07:22:09Z] [iter=1] Step 2: Finding LSP targets mem_mb=105 MB
+[2026-09-28T07:22:09Z] [iter=1] LSP targets found call_sites=94 imports=20 extends=0 implements=0 secs=0
+[2026-09-28T07:22:09Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=105 MB
+[2026-09-28T07:22:09Z] [iter=1] Position index built positions=770 nodes_with_types=939 secs=0 mem_mb=105 MB
+[2026-09-28T07:22:09Z] [iter=1] Step 3: Starting LSP resolution mem_mb=105 MB already_completed_types=[] already_completed_files=0
+[2026-09-28T07:22:09Z] [iter=1] Resolving target type target_type=call_site count=94
+[2026-09-28T07:22:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=1 resolved=17 errors=0 current=src/reader.rs
+[2026-09-28T07:22:41Z] [iter=1] Target type resolved target_type=call_site resolved=55 errors=3 secs=32 mem_mb=105 MB
+[2026-09-28T07:22:41Z] [iter=1] Resolving target type target_type=import_statement count=20
+[2026-09-28T07:22:57Z] [iter=1] Target type resolved target_type=import_statement resolved=20 errors=0 secs=15 mem_mb=105 MB
+[2026-09-28T07:23:09Z] [iter=1] Step 5: Writing final enrichment file triples=989
+[2026-09-28T07:23:09Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/31de201485f5ac45955497f9fce95fc27928158d.nq.gz size_kb=14
+[2026-09-28T07:23:09Z] [iter=1] PHASE END: enrich elapsed_s=69 elapsed_min=1.2 total_triples=989
