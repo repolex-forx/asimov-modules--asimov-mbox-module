@@ -1,0 +1,11 @@
+{
+  "org": "asimov-modules",
+  "repo": "asimov-mbox-module",
+  "versions": [
+    {
+      "commit": "31de201485f5ac45955497f9fce95fc27928158d",
+      "tag": "0.1.0",
+      "parsed_at": "2026-09-28T07:25:52.702169+00:00"
+    }
+  ]
+}
